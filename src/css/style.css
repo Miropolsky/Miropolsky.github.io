@@ -1,0 +1,375 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo{
+    color: #fff;
+    font-size: 22px;
+    line-height: 60px;
+    padding-left: 300px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 270px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background:url(../img/boy.png) 90% 100%/auto 85% no-repeat , url(../img/bg.jpg) center /cover no-repeat;
+}
+
+.title__container {
+    float: left;
+    margin: 232px 0  0 204px;
+    color: #2c384a;
+    text-align: center;
+}
+ 
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 58px 14px 0px 14px;
+}
+
+.aboutMe {
+    text-align: center;
+    width: 100%;
+    height: 600px;
+}
+
+.aboutMe h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #263244;
+    text-transform: uppercase;
+    margin-top: 107px;
+}
+
+.aboutMe img{
+    margin-top: 95px;
+}
+
+.aboutMe h4{
+    margin: 24px 350px 38px 350px; 
+    line-height: 20px;
+    text-align: left;
+}
+
+.aboutMe input{
+    color: #6f707e;
+    width: 157px;
+    height: 34px;
+    border: 2px solid #6f707e;
+    border-radius: 5px;
+    background: none;
+    text-align: center;
+    padding-left: 15px;
+    font-size: 15px;
+    background: url(../img/download.png) no-repeat 4% 50%;
+}
+
+.skillsMe{
+    height: 470px;
+    width: 100%;
+    background: url(../img/bgSkill.png) no-repeat center /cover;
+}
+
+.skillsMe h2, .keys h2, .price h2, .statisticsMe h2, .feedback h2, .contactsMe h2{
+    text-transform: uppercase;
+    color: #263244;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 103px;
+}
+
+.skillsMe div{
+    text-align: center;
+    float: left;
+    height: 213px;
+    width: 150px;
+    margin-right: 80px;
+    margin-top: 100px;
+}
+
+.skill h4, .skill1 h4{
+    margin-top: 38px;
+    margin-bottom: 20px;
+    color: #cf7600;
+    font-weight: bold;
+}
+
+.skill1{
+    margin-left: 315px;
+}
+
+.keys{
+    height: 1050px;
+    width: 100%;
+}
+
+.keys_img{
+    margin-left: 280px;
+    width: 900px;
+    height: 460px;
+    margin-bottom: 15px;
+    background: url(../img/keys.png) no-repeat center /contain;;
+}
+
+.keys h4{
+    margin-top: 73px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+
+
+.keys_left{
+    margin-left: 285px;
+    float: left;
+}
+
+.keys_right{
+    float: left;
+    width: 650px;
+    margin-left: 40px;
+}
+
+.keys_left h3, .keys_right h3{
+    font-size: 19px;
+    
+    font-weight: bold;
+    color: #384354;14
+}
+
+.keys_left h5{
+    margin-top: 14px;
+    margin-right: 8px;
+    margin-bottom: 14px;
+    
+}
+
+.keys_left input{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #63b5ae;
+    width: 200px;
+    height: 45px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.keys_right h5{
+    margin-top: 10px;
+}
+
+
+.price{
+    width: 100%;
+    height: 750px;
+}
+
+.price h2{
+    padding-top: 0;
+    margin-bottom: 52px;
+}
+
+.price h3{
+    margin-left: 400px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price select{
+    margin-left: 395px;
+    margin-bottom: 25px;
+    background-color: #eeeeee;
+    width: 800px;
+    height: 50px;
+}
+
+.price_select {
+    padding-left: 15px;
+    color: #737373;
+}
+
+.price h4{
+    margin-left: 395px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.statisticsMe{
+    height: 470px;
+    width: 100%;
+    background: url(../img/statistics.png) no-repeat center /cover;
+}
+
+.statictic, .statictic1{
+    text-align: center;
+    float: left;
+    height: 150px;
+    width: 157px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.statictic h3, .statictic1 h3{
+    margin-top: 23px;
+    margin-bottom: 20px;
+    color: #323e4f;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.statictic h4, .statictic1 h4{
+    color: #323e4f;
+    
+}
+
+.statictic1{
+    margin-left: 250px;
+}
+
+.feedback{
+    text-align: center;
+}
+
+.feedback img{
+    margin-top: 85px;
+    margin-bottom: 35px;
+}
+
+.feedback h4{
+    margin: 24px 350px 38px 350px;
+}
+
+.feedback h3{
+    margin-bottom: 40px;
+}
+
+.contactsMe{
+    text-align: center;
+    height: 750px;
+    width: 100%;
+    background: url(../img/bg_contact.png) no-repeat center /cover;
+}
+
+.contactsMe h2{
+    color: #eaebec;
+    margin-bottom: 50px;
+}
+
+.contactsMe h4{
+    color: #eaebec;
+}
+
+.contact img, .contact1 img{
+    margin-bottom: 10px;
+}
+
+.contact, .contact1{
+    text-align: center;
+    float: left;
+    height: 80px;
+    width: 160px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.contact1{
+    margin-left: 400px;
+}
+
+.contactsMe h3{
+    margin-left: 550px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 75px;
+    color: #eaebec;
+    width: 350px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact_name, .contact_email{
+    width: 335px;
+    height: 35px;
+    margin-bottom: 15px;
+    background-color: #d3d6dc;
+}
+
+.contact_email{
+    margin-left: 25px;
+}
+
+.contactsMe textarea{
+    background-color: #d3d6dc;
+    height: 95px;
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+.contact_sumbit{
+    color: white;
+    border: 2px solid white;
+    background: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 42px;
+    text-align: center;
+}
+
+/*.message_text{
+    text-align: center;
+    margin-top: 40px;
+    color: #eaebec;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}*/
+
+
+
+
+
