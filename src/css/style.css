@@ -77,6 +77,7 @@ nav{
     height: 60px;
     background: #344051;
     position: fixed;
+    z-index: 100;
 }
 
 .logo{
