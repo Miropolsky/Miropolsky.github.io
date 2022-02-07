@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="description" content="Это моя первая страница">
     <title>Андрей Браун - Веб-разработчик</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 
 
@@ -20,68 +23,126 @@
     
     <header>
         <nav>
-            <div class="logo">Андрей Браун</div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Обо мне</a></li>
-                    <li><a href="#">Услуги</a></li>
-                    <li><a href="#">Кейсы</a></li>
-                    <li><a href="#">Прайс</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </div>
+           <div class="container">
+               <div class="row">
+                   <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Андрей Браун</div></div>
+                   <div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offest-lg-1 d-none d-lg-block"><div class="menu">
+                        <ul>
+                            <li><a href="#">Обо мне</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Кейсы</a></li>
+                            <li><a href="#">Прайс</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                  <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+                      <div class="dropdown">
+                          <a class="btn btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Навигация
+                          </a>
+
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Обо мне</a></li>
+                            <li><a class="dropdown-item" href="#">Услуги</a></li>
+                            <li><a class="dropdown-item" href="#">Кейсы</a></li>
+                            <li><a class="dropdown-item" href="#">Прайс</a></li>
+                            <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                            <li><a class="dropdown-item" href="#">Контакты</a></li>
+                          </ul>
+                        </div>
+                  </div>
+               </div>
+           </div>
+            
+            
         </nav>
     </header>
         <main>
             <section class="main">
-               <div class="title__container">
-                    <h1>Привет <br> Я Андрей Браун</h1>
-                    <h4>Фулл стек веб - разработчик и Android - разработчик </h4>
-                    <input type="button" value="Обо мне">
-                    <input type="button" value="Мои работы">
-                </div>
+              <div class="container h-100">
+                  <div class="row align-items-center h-100">
+                      <div class="col-lg-6 mt-5 pt-5">
+                          <div class="title__container mt-5">
+                                <h1>Привет <br> Я Андрей Браун</h1>
+                                <h4>Фулл стек веб - разработчик и Android - разработчик </h4>
+                                <input type="button" value="Обо мне">
+                                <input type="button" value="Мои работы">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+               
             </section>
 
 
 
             <section class="aboutMe">
-                <h2>Обо мне</h2>
-                <img src="img/photoAndrey.png" alt="Мое изображения">
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
-                        facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</h4>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
-                        facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</h4>
-                <input type="button" value="Скачать резюме">
+               <div class="contatiner overflow-hidden">
+                   <div class="row justify-content-center">
+                       <div class="col">
+                            <h2>Обо мне</h2>
+                            <img src="img/photoAndrey.png" alt="Мое изображения">
+                        </div>
+                   <div class="row justify-content-center">     
+                        <div class="col-md-8 col-9 mt-5">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
+                                    facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</h4>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
+                                    facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</h4>
+                       </div>
+                    <div class="row justify-content-center gy-4"> 
+                        <div class="col">
+                            <input type="button" value="Скачать резюме">
+                        </div>
+                    </div>
+                   </div>
+                    </div>
+                </div>
             </section>
     
         
         
             <section class="skillsMe">
-                <h2>Что я умею</h2>
-
-                <div class="skill">
-                    <img src="img/notebook.png" alt="Ноутбук">
-                    <h4>Веб-дизайн</h4>
-                    <h5>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempu</h5>
-                </div>
-
-                <div class="skill">
-                    <img src="img/slash.png" alt="Слэш">
-                    <h4>Разработка</h4>
-                    <h5>Lorem ipsum dolor sit amet placerat facilisis mi in tempus elei</h5>
-                </div>
-
-                <div class="skill">
-                    <img src="img/rocket.png" alt="Ракета">
-                    <h4>СЕО-Оптимизация</h4>
-                    <h5>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempu</h5>
-                </div>
-
-                <div class="skill">
-                    <img src="img/megafon.png" alt="Мегафон">
-                    <h4>Маркетинг</h4>
-                    <h5>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempu</h5>
+               <div class="container overflow-hidden">
+                    <div class="row justify-content-center">
+                       <div class="col text-center">
+                           <h2>Что я умею</h2>
+                       </div>
+                    </div>
+                
+                    <div class="row justify-content-center">
+                       <div class="col-3 text-center">
+                            <div class="skill">
+                                <img src="img/notebook.png" alt="Ноутбук">
+                                <h4>Веб-дизайн</h4>
+                                <h5>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempu</h5>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xl-3 text-center">
+                            <div class="skill">
+                                <img src="img/slash.png" alt="Слэш">
+                                <h4>Разработка</h4>
+                                <h5>Lorem ipsum dolor sit amet placerat facilisis mi in tempus elei</h5>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 text-center">
+                            <div class="skill">
+                                <img src="img/rocket.png" alt="Ракета">
+                                <h4>СЕО-Оптимизация</h4>
+                                <h5>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempu</h5>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 text-center">
+                            <div class="skill">
+                                <img src="img/megafon.png" alt="Мегафон">
+                                <h4>Маркетинг</h4>
+                                <h5>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempu</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -210,5 +271,6 @@
       }, 500);
     }
   </script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
