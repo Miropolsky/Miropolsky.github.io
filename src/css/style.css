@@ -161,7 +161,6 @@ main{
 .aboutMe {
     text-align: center;
     width: 100%;
-    height: 600px;
 }
 
 .aboutMe h2{
@@ -212,7 +211,6 @@ main{
 }
 
 .skillsMe{
-    height: 470px;
     width: 100%;
     background: url(../img/bgSkill.png) no-repeat center /cover;
 }
@@ -233,7 +231,7 @@ main{
     font-size: 25px;
     font-weight: bold;
     margin-top: 90px;
-    margin-bottom: 90px;
+    margin-bottom: 140px;
 }
 
 /*
@@ -255,15 +253,259 @@ main{
 }
 
 .skill h4{
-
     color: #cf7600;
     font-weight: bold;
+}
+
+.skill{
+    margin-bottom: 80px;
+}
+
+
+.keys{
+    width: 100%;
+}
+
+.keys h2{
+    text-transform: uppercase;
+    color: #263244;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.keys h4{
+    margin-top: 70px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #38475a;
+    font-family: Calibri, sans-serif;
+}
+
+.keys h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #384354;
+}
+
+
+.keys input{
+    background-color: #63b5ae;
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.4s;
+    transform: scale(1);
+}
+
+.keys input:hover{
+    background: #fff;
+    border: 2px solid #63b5ae;
+    color: #63b5ae;
+    font-size: 20px;
+}
+
+.keys input:active{
+    transform: scale(1.1);
+}
+
+
+.price h2{
+    margin-top: 90px;
+    font-family: 'FranklinGot', sans-serif;
+    color: #303e4c;
+}
+
+.price h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price select{
+    background-color: #eeeeee;
+}
+
+.price_select {
+    color: #737373;
+}
+
+.price h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price_input input{
+    background-color: #63b5ae;
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.4s;
+    transform: scale(1);
+}
+
+.price_input input:hover{
+    background: #fff;
+    border: 2px solid #63b5ae;
+    color: #63b5ae;
+    font-size: 20px;
+}
+
+.price_input input:active{
+    transform: scale(1.1);
+}
+
+.statisticsMe{
+    background: url(../img/statistics.png) no-repeat center /cover;
+    background-attachment: fixed;
+    height: 70%;
+}
+
+.statistics{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.statisticsMe h2{
+    margin-top: 90px;
+    text-transform: uppercase;
+    color: #263244;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.statictic h3{
+    color: #323e4f;
+    font-weight: 1000;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.statictic h4{
+    color: #323e4f;
+    
+}
+
+.statictic img:hover{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: heartBeat;
+    animation-duration: 2s;
+}
+
+.feedback{
+    margin-bottom: 100px;
+}
+
+.feedback h2{
+    margin-top: 90px;
+    text-transform: uppercase;
+    color: #263244;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.feedback img{
+    margin-top: 85px;
+    margin-bottom: 35px;
+    transition: all 1s;    
+    transform: scale(1);
+}
+
+.feedback img:active{
+    transform: scale(1.3);
+}
+
+.feedback h4, .feedback h3{
+    color: #263244;    
+}
+
+.feedback h3{
+    margin-bottom: 40px;
+}
+
+.contactsMe{
+    text-align: center;
+    background: url(../img/bg_contact.png) no-repeat center /cover;
+}
+
+.contactsMe h2{
+    color: #eaebec;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contactsMe h4{
+    color: #eaebec;
+}
+
+.contact img{
+    margin-bottom: 10px;
+}
+
+.contact{
+
+}
+
+.contactsMe h3{
+    margin-top: 45px;
+    margin-bottom: 40px;
+    color: #eaebec;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact_name, .contact_email{
+
+
+    background-color: #d3d6dc;
+}
+
+.contact_email{
+    
+}
+
+.contactsMe textarea{
+    background-color: #d3d6dc;
+}
+
+.contact_sumbit{
+    color: white;
+    border: 2px solid white;
+    background: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 42px;
+    transform: scale(1);
+    transition: all 0.5s;
+    margin-top: 25px;
+    margin-bottom: 160px;
+}
+
+.contact_sumbit:hover{
+    background-color:aliceblue;
+    border: 2px solid #2c384a;
+    color: #2a4b8c;
+    font-weight: bold;
+}
+
+.contact_sumbit:active{
+    transform: scale(1.1);
 }
 
 
 .white-btn:visited{
     color: white;
 }
+
+
+
 
 @media (max-width:991px){
     .title__container, .title__container h4, .title__container input{
