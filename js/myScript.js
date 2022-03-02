@@ -2,33 +2,47 @@ let typeSite = $('#typeSite');
 let typeDesign = $('#design');
 let adapatability = $('#adapt');
 let price = 5000;
+let priceTypeSite = 0;
+let priceTypeDesign = 0;
+let priceAdaptability = 0;
 
 typeSite.change(function(){
+  
   if( $(this).val() == 1) {
-     price += 2000;
-     $('#priceEnd').text(price);
+     priceTypeSite = 2000;
   }
+    
+  if( $(this).val() == 2) {
+     priceTypeSite = 0;
+  }
+  $('#priceEnd').text(price + priceTypeSite + priceTypeDesign + priceAdaptability);
 });
+
 typeDesign.change(function(){
+  
   if( $(this).val() == 1) {
-     price += 1500;
-     $('#priceEnd').text(price);
+     priceTypeDesign = 1500;
   }
   if ($(this).val() == 2){
-      price += 3000;
-      $('#priceEnd').text(price);
+      priceTypeDesign = 3000;
   }
   if ($(this).val() == 3){
-      price += 5000;
-      $('#priceEnd').text(price);
+      priceTypeDesign = 5000;
   }
+  $('#priceEnd').text(price + priceTypeSite + priceTypeDesign + priceAdaptability);
 });
 
 adapatability.change(function(){
+  
   if( $(this).val() == 1) {
-     price += 5000;
-     $('#priceEnd').text(price);
+     priceAdaptability = 5000;
   }
+  if( $(this).val() == 2) {
+     priceAdaptability = 0;
+  }
+    
+  $('#priceEnd').text(price + priceTypeSite + priceTypeDesign + priceAdaptability);
+  
 });
                       
 $('#priceEnd').text(price);
