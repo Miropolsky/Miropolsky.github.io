@@ -2,50 +2,64 @@ let typeSite = $('#typeSite');
 let typeDesign = $('#design');
 let adapatability = $('#adapt');
 let price = 5000;
+let date = 7;
 let priceTypeSite = 0;
 let priceTypeDesign = 0;
 let priceAdaptability = 0;
+let daysTS = 0;
+let daysTD = 0;
+let daysAd = 0;
 
 typeSite.change(function(){
   
   if( $(this).val() == 1) {
      priceTypeSite = 2000;
+     daysTS = 5;
   }
     
   if( $(this).val() == 2) {
      priceTypeSite = 0;
+     daysTS = 0;
   }
   $('#priceEnd').text(price + priceTypeSite + priceTypeDesign + priceAdaptability);
+  $('#dateEnd').text(date + daysTS + daysTD + daysAd + " дней");
 });
 
 typeDesign.change(function(){
   
   if( $(this).val() == 1) {
      priceTypeDesign = 1500;
+     daysTD = 3;
   }
   if ($(this).val() == 2){
       priceTypeDesign = 3000;
+      daysTD = 5;
   }
   if ($(this).val() == 3){
       priceTypeDesign = 5000;
+      daysTD = 6;
   }
   $('#priceEnd').text(price + priceTypeSite + priceTypeDesign + priceAdaptability);
+  $('#dateEnd').text(date + daysTS + daysTD + daysAd + " дней");
 });
 
 adapatability.change(function(){
   
   if( $(this).val() == 1) {
      priceAdaptability = 5000;
+     daysAd = 2;
   }
   if( $(this).val() == 2) {
      priceAdaptability = 0;
+     daysAd = 0;
   }
     
   $('#priceEnd').text(price + priceTypeSite + priceTypeDesign + priceAdaptability);
-  
+  $('#dateEnd').text(date + daysTS + daysTD + daysAd + " дней");
 });
                       
 $('#priceEnd').text(price);
+$('#dateEnd').text(date + " дней");
                       
                       
                  
