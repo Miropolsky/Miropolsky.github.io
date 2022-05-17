@@ -19,6 +19,7 @@
 
 body{
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 nav{
@@ -52,6 +53,7 @@ nav{
     margin-right: 40px;
     text-transform: uppercase;
     font-size: 14px; 
+    font-weight: bold;
     -webkit-animation: topshift 0.4s ease forwards;
     -o-animation: topshift 0.4s ease forwards;
     animation: topshift 0.4s ease forwards;
@@ -107,7 +109,7 @@ main{
 .main {
     width: 100%;
     height: 100%;
-    background:url(../img/boy.png) 90% 100%/auto 85% no-repeat , url(../img/bg.jpg) center /cover no-repeat;
+    background:url(../img/serzh.png) 90% 100%/auto 80% no-repeat , url(../img/bg.png) center /cover no-repeat;
 }
 
 .title__container {
@@ -143,7 +145,7 @@ main{
     background: none;
     border-radius: 5px;
     color: #6d7682;
-    font-size: 13px;
+    font-size: 16px;
     padding: 0px 16px;
     margin: 58px 14px 0px 14px;
     transition: all 0.2s;
@@ -194,13 +196,14 @@ main{
     border: 2px solid #6f707e;
     border-radius: 5px;
     font-size: 15px;
-    background: url(../img/download.png) no-repeat 2% 50%; 
     transition: all 0.2s;
     transform: scale(1);
     margin-bottom: 50px;
 }
 
-
+.modal_window{
+    background: #f2f2f2;
+}
 
 .aboutMe input:hover{
     background-color: lightgray;
@@ -492,6 +495,25 @@ main{
 
 .white-btn:visited{
     color: white;
+}
+
+.contact_email{
+    background: none;
+    color: white;
+    text-decoration: none;
+}
+
+.contact_tel{
+    text-decoration: none;
+    color: white;
+}
+
+.contact_tel:active{
+    color: whitesmoke;
+}
+
+.contact_tel:hover, .contact_email:hover{
+    color:chartreuse;
 }
 
 @keyframes comming{

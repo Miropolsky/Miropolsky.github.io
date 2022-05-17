@@ -61,55 +61,10 @@ adapatability.change(function(){
 $('#priceEnd').text(price);
 $('#dateEnd').text(date + " дней");
                       
-                      
-                 
-                 
-    
-    
-    
+ 
 
 
-/*let price = 500;
-let data = 3;
-
-let calculate = {
-    site: typeSite,
-    design: typeDesign,
-    adapt: adaptability,
-    
-    
-    showCalculate(){
-        if(calculate.site === 1){
-            price += 2000;
-            data += 3;
-        }
-        
-        if (calculate.design === 1){
-            price += 1500;
-            data += 3;
-        }
-        
-        if (calculate.design === 2){
-            price += 3000;
-            data += 5;
-        }
-        
-        if (calculate.adapt === 1){
-            price += 5000;
-            data += 2;
-        }
-        
-        priceEnd.innerHTML = price;
-        
-    }
-};*/
-
-
-
-
-
-
-setTimeout(function() { $("#elem").show('slow'); }, 10000);
+setTimeout(function() { $("#elem").show('slow'); }, 40000);
 $('.btn-close').click(function(){
     $('#elem').hide('slow');
 });
@@ -121,6 +76,8 @@ $('.btn-closed').click(function(){
 
 
 $(document).ready(function() {
+    new WOW().init();
+    $("#inputTel").mask("+7(999) 999-9999");
     $('.image-link').magnificPopup({type:'image'});
     
     
