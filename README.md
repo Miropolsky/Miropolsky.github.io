@@ -1,2 +1,2 @@
-# Учебный сайт в портфолио
+# Portfolio Site
 [Demo](https://miropolsky.github.io/)
